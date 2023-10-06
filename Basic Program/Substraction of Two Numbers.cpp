@@ -14,7 +14,7 @@ int main()
 
     Sub = No1 - No2 ;
 
-    cout<<endl<<"Substraction of "<<No1<<" and "<<No2<<" is "<<Sum;
+    cout<<endl<<"Substraction of "<<No1<<" and "<<No2<<" is "<<Sub;
 
     getch();
     return 0;
