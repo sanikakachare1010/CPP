@@ -1,0 +1,27 @@
+//Change Array
+#include<iostream>
+using namespace std;
+
+void ChangeArray(int arr[],int isize)
+{
+    cout<<"In Function"<<endl;
+    for(int i =0;i<isize;i++)
+    {
+        arr[i] =  2 * arr[i];
+    }
+}
+int main()
+{
+      int arr[5] = {10,20,30,40,50};
+      int isize = 5,i=0;
+
+      ChangeArray(arr,5);   // by reference
+      
+      cout<<"In Main "<<endl;
+      for(i=0;i<isize;i++)
+      {
+        cout<<arr[i]<<endl;
+      }
+
+      return 0;
+}
